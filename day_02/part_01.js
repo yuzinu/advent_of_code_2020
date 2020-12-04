@@ -33,6 +33,6 @@ const solve = async () => {
   }
 
   return valid;
-}
+};
 
 solve().then(console.log);
