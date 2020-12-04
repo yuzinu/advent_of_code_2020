@@ -17,6 +17,6 @@ const solve = async () => {
     pos = (pos + 3) % size;
   });
   return trees;
-}
+};
 
 solve().then(console.log);
